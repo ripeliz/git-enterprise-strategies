@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import gatorLogo from './gator.gif';
 import './App.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello World!
         </p>
         <a
           className="App-link"
@@ -17,6 +17,9 @@ function App() {
         >
           Learn React
         </a>
+        <img src={gatorLogo} className="App-logo" alt="logo" />
+        <p> Hello World! </p>
+        <p> My name is Elizabeth Choy and this is my project </p>
       </header>
     </div>
   );
